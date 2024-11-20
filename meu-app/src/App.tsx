@@ -17,7 +17,7 @@ export const App = () => {
       </TabPanel>
       <TabPanel>
         <div className='background_Home'>
-      <img  src='{backgrounds}' alt="abc"/>
+      <img  src='https://static.vecteezy.com/system/resources/previews/021/971/132/non_2x/background-image-with-a-mix-of-blue-and-purple-colors-resembling-a-galaxy-or-space-theme-generative-ai-free-photo.jpeg' alt="abc"/>
         <p>two!</p>
         </div>
 
