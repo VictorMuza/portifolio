@@ -1,6 +1,15 @@
-.background_Home{
+.container {
   display: flex;
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
   height: 100vh; /* Para ocupar toda a altura da tela */
+}
+
+.avatar{
+  width: 200px; /* Exemplo de largura fixa */
+  padding: 20px;
+}
+
+.description{
+  width: 200px;
 }
