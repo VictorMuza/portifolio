@@ -23,13 +23,25 @@ export const App = () => {
               </Heading>
             </Stack>
             </div>
+            <hr />
+            <div className='project'>
+            <Stack spacing={6}>
+              <Heading size='md' as='h4'>
+              Projetos
+              </Heading>
+              </Stack>
+            </div>
+            <hr />
           <div className='rodpe'>
             <footer>
-
+            <Stack spacing={6}>
+              <Heading size='md' as='h4'>
+                Contatos
+              </Heading>
+            </Stack>
             </footer>
-          </div>
-      </div>
-      
+        </div>
+    </div>
 </div>
   )
 }

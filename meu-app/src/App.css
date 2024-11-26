@@ -13,3 +13,9 @@
 .description{
   width: 200px;
 }
+
+hr {
+  border: none;
+  border-top: 2px solid #ccc; /* Linha entre as divs */
+  margin: 20px 0; /* Espaçamento vertical */
+}
