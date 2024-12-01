@@ -13,21 +13,21 @@
   padding: 20px;
   width: 100%;
   height: 100%;
-  background-color: #282c34; /* Cor de fundo aplicada ao contêiner principal */
-  color: white; /* Ajuste a cor do texto para melhor contraste */
+  background-color: #373A40; /* Cor de fundo aplicada ao contêiner principal */
+  color: #EEEEEE; /* Ajuste a cor do texto para melhor contraste */
 }
 
 .navbar {
-  width: 100%;
+  width: 50%;
   display: flex;
-  justify-content: center;
-  background-color: #333;
+  justify-content: right;
+  background-color: #686D76; /* Cor de fundo do navbar */
   padding: 10px 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .nav-link {
-  color: #61dafb; /* Cor dos links */
+  color: #DC5F00; /* Cor dos links */
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
@@ -57,23 +57,30 @@
   width: 100%;
   padding: 20px;
   text-align: center;
+  border: 2px solid #DC5F00; /* Borda para a seção Sobre Mim */
+  border-radius: 8px;
+  margin-top: 40px; /* Espaço acima da seção Sobre Mim */
+  margin-bottom: 20px;
 }
 
 .projetos-section {
   width: 100%;
   padding: 20px;
   text-align: center;
+  border: 2px solid #DC5F00; /* Borda para a seção Projetos */
+  border-radius: 8px;
+  margin-bottom: 20px;
 }
 
 .project-placeholder {
   width: 150px;
   height: 150px;
-  background-color: #444;
+  background-color: #686D76; /* Cor de fundo dos placeholders */
   margin: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #EEEEEE;
   font-size: 1.2em;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -83,11 +90,13 @@
   width: 100%;
   padding: 20px;
   text-align: center;
+  border: 2px solid #DC5F00; /* Borda para a seção Contatos */
+  border-radius: 8px;
+  margin-bottom: 20px;
 }
 
 hr {
   border: none;
-  border-top: 2px solid #61dafb; /* Linha entre as divs */
+  border-top: 2px solid #DC5F00; /* Linha entre as divs */
   margin: 20px 0; /* Espaçamento vertical */
-  
 }
