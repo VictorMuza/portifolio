@@ -17,14 +17,40 @@
   color: white; /* Ajuste a cor do texto para melhor contraste */
 }
 
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  color: #61dafb; /* Cor dos links */
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
 .avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 200px; /* Exemplo de largura fixa */
   padding: 20px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .description {
-  width: 200px;
+  width: 100%;
   text-align: center;
+  margin-top: 20px; /* Ajuste conforme necessário */
 }
 
 .about-me {
@@ -39,6 +65,20 @@
   text-align: center;
 }
 
+.project-placeholder {
+  width: 150px;
+  height: 150px;
+  background-color: #444;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.2em;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .contatos-section {
   width: 100%;
   padding: 20px;
@@ -46,7 +86,8 @@
 }
 
 hr {
-  border: 0; /* Remove a borda padrão */
-  border-top: 2px solid #a8a6a6; /* Linha entre as divs */
-  width: 100%;
+  border: none;
+  border-top: 2px solid #61dafb; /* Linha entre as divs */
+  margin: 20px 0; /* Espaçamento vertical */
+  
 }
